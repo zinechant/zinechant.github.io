@@ -1,0 +1,17 @@
+Approximate Logic Synthesis for two-level circuits
+==================================================
+
+This is the work I did during my undergraduate study. I started the project while doing research intership at the University of Alberta and finished it after I returned to Fudan University. As you can tell from the name of the project, it's project regarding electronic design automation(EDA).
+
+## Logic Synthesis
+Logic synthesis is the step in the electronic design automation where we are under pursuit of an logical representation of the functional design. Ideally, this logical representation would be composed of the logic gates that correspond the standard cells in the technology library. But in reality, another step called technology mapping may involve after the logic synthesis and before physical design to keep the synthesis algorithm agnostic to different semiconductor technologies and handle the mapping from the logic to standard cells.
+
+## Approximate Computing
+For those who might be unfamiliar, the whole idea of approximate computing is to trade the computation accuracy for energy efficiency and circuit area. This may be a crazy idea for some people but there are actually some decent application scenarios. For example, cell-phone battery has always been a concern since there haven't been great leaps in battery-related technology for decades while moore's law continue to advance. If we replace lossless audio decoder with an approximate decoder, we may reduce the energy usage by up to 10 times. Another application scenario may be in the astronomy electronics, to guard critical logic from soft errors resulted from particle rays, voter mechanism has been employed a lot to produce a secure output by duplicating the logic three times. If we replace a duplicated logic with a approximate logic, much area and power can be saved with only small impact on the accuracy considering there is already original logic in the voter.
+
+## Approximate Logic Synthesis
+There were many literature in pursuit of ad-hoc approaches on the approximate circuit, i.e. they hand-optimize circuits by deleting non-essential part to save energy and keep accuracy not too low. But I want to solve it systematically, just like how we do circuit design in the non-approximate world, I would like to develop approximate logic synthesis algorithms that would output the logic representation (which ideally correspond to gate composition of certain semiconductor technology) when providing the designed accurate function and error rate bound the application can tolerate.
+
+The basic idea is to look into the karnaugh map and find [minterm](https://en.wiktionary.org/wiki/minterm) that when it is complemented(changing it from 0 to 1 or the other way round) can simplify the [essential prime implicant](https://en.wiktionary.org/wiki/essential_prime_implicant). Since there may be many of these minterms, the primary job of the proposed algorithm is to heuristically evaluate these minterms and determine which ones of them would provide best simplications of the circuit when complemented since number of minterms that can be complemented is bounded by the error rate upper bound requirement.
+
+If you would like to go into details, please refer to this [paper](http://ieeexplore.ieee.org/document/7516961/) which I presented at IEEE ASICON 2015.
