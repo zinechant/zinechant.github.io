@@ -8,7 +8,7 @@ comments: false
 
 ## Biography
 
-[Chen Zou](../assets/pdf/ChenZou_CV.pdf) is a second-year PhD student in the Computer Science department of the University of Chicago. Chen Zou lays a broad interest in different layers of the computer systems, including computer architecture, compiler, database but with concentration in accelerators’ architecture. Chen Zou is under instructions of Prof. Andrew A. Chien.
+[Chen Zou](../assets/pdf/ChenZou_CV.pdf) is a Ph.D. student in the Computer Science department of the University of Chicago. Chen Zou lays a broad interest in different layers of the computer systems, including computer architecture, compiler, database but with concentration in accelerators’ architecture. Chen Zou is under instructions of Prof. Andrew A. Chien.
 
 Chen Zou obtained B.S. in Microelectronics at Fudan University at June 2016.
 
