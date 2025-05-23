@@ -17,7 +17,7 @@ Chen obtained B.S. in Microelectronics at Fudan University on June 2016,
 and M.S. in Computer Science at University of Chicago on June 2019.
 
 ## SELECTED PUBLICATIONS
-- [Chen](../assets/pdf/VarVE.pdf)[ ](https://youtu.be/K6LZ-5zgOss)[Zou](../asset/pdf/VarVESlides.pdf), Andrew A. Chien. VarVE: Bringing SIMD Performance to Variable-Width Values. 2024 IEEE 42nd International Conference on Computer Design (ICCD' 24).
+- [Chen](../assets/pdf/VarVE.pdf)[ ](https://youtu.be/K6LZ-5zgOss)[Zou](../assets/pdf/VarVESlides.pdf), Andrew A. Chien. VarVE: Bringing SIMD Performance to Variable-Width Values. 2024 IEEE 42nd International Conference on Computer Design (ICCD' 24).
 - [Chen](../assets/pdf/assasin.pdf)[ ](./index.md)[Zou](../assets/pdf/assasin_micro22.pdf), Andrew A. Chien. ASSASIN: Architecture Support for Stream Computing to Accelerate Computational Storage. 2022 IEEE/ACM 55th International Symposium on Microarchitecture (MICRO' 22).
 - [Chen](../assets/pdf/PSACS.pdf)[ ](../assets/pdf/PSACSSlides.pdf)[Zou](https://youtu.be/maplnpVfoys), Hui Zhang, Yang Seok Ki and Andrew A. Chien. PSACS: Highly-Parallel Shuffle Accelerator on Computational Storage. 2021 IEEE 39th International Conference on Computer Design (ICCD' 21).
 - [Chen](../assets/pdf/HEPPoster.pdf)[ ](../assets/pdf/HEPExtended.pdf)[Zou](../assets/pdf/HEPAbstract.pdf), Andrew A Chien, Robert Gardner, and Ilija Vukotic. Computational Storage to Increase the Analysis Capability of Tier-2 HEP Data Sites (Poster). 2021 IEEE International Conference on Cluster Computing (CLUSTER' 21).
